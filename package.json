@@ -1,0 +1,7 @@
+{
+  "name": "blockchain-clinical-trial",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd frontend-app && npm install && npm run build"
+  }
+}

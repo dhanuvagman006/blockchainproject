@@ -1,0 +1,35 @@
+{
+  "latency": [
+    {"transactions": 1, "ethereum_sec": 0.23, "hyperledger_sec": 0.08},
+    {"transactions": 5, "ethereum_sec": 0.24, "hyperledger_sec": 0.1},
+    {"transactions": 10, "ethereum_sec": 0.25, "hyperledger_sec": 0.11},
+    {"transactions": 50, "ethereum_sec": 1.68, "hyperledger_sec": 0.14},
+    {"transactions": 100, "ethereum_sec": 2.16, "hyperledger_sec": 0.18},
+    {"transactions": 500, "ethereum_sec": 13.65, "hyperledger_sec": 0.89},
+    {"transactions": 1000, "ethereum_sec": 26.78, "hyperledger_sec": 1.98},
+    {"transactions": 5000, "ethereum_sec": 267.89, "hyperledger_sec": 20.45},
+    {"transactions": 10000, "ethereum_sec": 485.12, "hyperledger_sec": 35.78}
+  ],
+  "throughput": [
+    {"transactions": 1, "ethereum_tps": 4.65, "hyperledger_tps": 10.56},
+    {"transactions": 5, "ethereum_tps": 15.65, "hyperledger_tps": 34.56},
+    {"transactions": 10, "ethereum_tps": 28.23, "hyperledger_tps": 68.45},
+    {"transactions": 50, "ethereum_tps": 32.45, "hyperledger_tps": 178.47},
+    {"transactions": 100, "ethereum_tps": 38.58, "hyperledger_tps": 300.9},
+    {"transactions": 500, "ethereum_tps": 36.4, "hyperledger_tps": 275.34},
+    {"transactions": 1000, "ethereum_tps": 34.76, "hyperledger_tps": 252.86},
+    {"transactions": 5000, "ethereum_tps": 28.98, "hyperledger_tps": 183.23},
+    {"transactions": 10000, "ethereum_tps": 20.67, "hyperledger_tps": 160.26}
+  ],
+  "execution_time": [
+    {"transactions": 1, "ethereum_sec": 0.2, "hyperledger_sec": 0.1},
+    {"transactions": 5, "ethereum_sec": 0.25, "hyperledger_sec": 0.11},
+    {"transactions": 10, "ethereum_sec": 0.35, "hyperledger_sec": 0.12},
+    {"transactions": 50, "ethereum_sec": 1.6, "hyperledger_sec": 0.2},
+    {"transactions": 100, "ethereum_sec": 2.65, "hyperledger_sec": 0.34},
+    {"transactions": 500, "ethereum_sec": 13.23, "hyperledger_sec": 1.72},
+    {"transactions": 1000, "ethereum_sec": 30.04, "hyperledger_sec": 2.78},
+    {"transactions": 5000, "ethereum_sec": 230.78, "hyperledger_sec": 26.6},
+    {"transactions": 10000, "ethereum_sec": 489.67, "hyperledger_sec": 60.54}
+  ]
+}

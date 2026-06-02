@@ -1,0 +1,24 @@
+# Environments
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Mac/OSX
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Frontend (if not ignored by its own .gitignore)
+frontend-app/node_modules/
+frontend-app/build/

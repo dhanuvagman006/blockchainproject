@@ -1,0 +1,18 @@
+{
+  "name": "hardhat-clinical-trial",
+  "description": "Hardhat / Ganache config for smart contract deployment",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test":    "hardhat test",
+    "deploy":  "hardhat run scripts/deploy.js --network localhost",
+    "node":    "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "ethers": "^6.12.1"
+  }
+}
