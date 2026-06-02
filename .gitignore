@@ -22,6 +22,3 @@ logs/
 # Frontend (if not ignored by its own .gitignore)
 frontend-app/node_modules/
 frontend-app/build/
-
-# ML saved models
-ml/saved_models/
